@@ -1,0 +1,111 @@
+{%extends 'base.html'%}
+
+{%block content%}
+
+<div class="container-fluid mt-3 mb-5">
+<br><br><br><br>
+  <section class="mb-4">
+
+    <style>
+      .map-container {
+        overflow: hidden;
+        position: relative;
+        height: 0;
+      }
+
+      .map-container iframe {
+        left: 0;
+        top: 00;
+        height: 80%;
+        width: 80%;
+        position: absolute;
+      }
+    </style>
+
+    <div class="card">
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <!-- Google Maps -->
+          <div id="map-within-card-2" class="map-container rounded-left" style="height: 400px">
+            <iframe src="https://www.google.pl/maps/place/Pary%C5%BC,+32-065+Nowa+G%C3%B3ra/@50.1810939,19.5561607,20.34z/data=!4m5!3m4!1s0x4716f001f8381793:0x7d1cf8887494a88!8m2!3d50.1819997!4d19.5594713" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+          <!-- Google Maps -->
+
+        </div>
+
+        <div class="col-10 col-md-4 mx-auto align-self-center py-4">
+
+          <h4 class="font-weight-bold grey-text text-uppercase small">SHOP no. 1</h4>
+          <h5 class="font-weight-normal mb-4">Paryż</h5>
+          <p class="text-muted font-weight-light"> 1 Augusta Czartoryskiego st.</p>
+          <p class="text-muted font-weight-light">+48 123 456 789</p>
+          <p class="text-muted font-weight-light">Shopno1@pps.com</p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <!-- Google Maps -->
+          <div id="map-within-card-2" class="map-container rounded-left" style="height: 400px">
+            <iframe src="https://www.google.com/maps/place/22-640+Korea/@50.5514022,23.5600832,21z/data=!4m5!3m4!1s0x4724a36e8c3d870b:0x31cf657ea280428a!8m2!3d50.551519!4d23.559989" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+          <!-- Google Maps -->
+
+        </div>
+
+        <div class="col-10 col-md-4 mx-auto align-self-center py-4">
+
+          <h4 class="font-weight-bold grey-text text-uppercase small">SHOP no. 2</h4>
+          <h5 class="font-weight-normal mb-4">Korea</h5>
+          <p class="text-muted font-weight-light">16 Pogodna st.</p>
+          <p class="text-muted font-weight-light">+48 132 456 789</p>
+          <p class="text-muted font-weight-light">Shopno2@pps.com</p>
+
+
+        </div>
+
+
+        <div class="card">
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <!-- Google Maps -->
+          <div id="map-within-card-2" class="map-container rounded-left" style="height: 400px">
+            <iframe src="https://www.google.pl/maps/place/Wygwizd%C3%B3w,+41-205+Sosnowiec/@50.2980672,19.1350649,19.08z/data=!4m5!3m4!1s0x4716da84199dc8f5:0x3fe74450b01fbae5!8m2!3d50.2967321!4d19.1362466" frameborder="1"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+          <!-- Google Maps -->
+
+        </div>
+
+        <div class="col-10 col-md-4 mx-auto align-self-center py-4">
+
+          <h4 class="font-weight-bold grey-text text-uppercase small">SHOP no. 3</h4>
+          <h5 class="font-weight-normal mb-4">Sosnowiec - Wygwizdów</h5>
+          <p class="text-muted font-weight-light">3 Śnieżna st.</p>
+          <p class="text-muted font-weight-light">+48 132 464 789</p>
+          <p class="text-muted font-weight-light">Shopno3@pps.com</p>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+</div>
+{%endblock%}
+
