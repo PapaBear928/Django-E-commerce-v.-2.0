@@ -30,13 +30,16 @@ AJAX<br></h4>
 <h4>Then, after your venv folder is created open it by: </h4>
 <i>venv\scripts\activate</i>
 
-<h4>And then install requirements included in filde requirements.txt </h4>
+<h4>And then install requirements included in field requirements.txt </h4>
 <i>pip install -r requirements.txt</i>
 
-<h4>After instalation complete you can run server with project </h4>
+<h4>And then migrate files </h4>
+<i>py manage.py migrate --run-syncdb</i>
+
+<h4>After installation complete you can run server with project </h4>
 <i>py manage.py runserver</i>
 
-<h3>This app have email verification system, so be attention to use existing email adress!!!</h3>
+<h3>This app has email verification system, so be attention to use existing email address!!!</h3>
 
 <h2>Features</h2>
 The main feature of this project was creating an online store, which will include all features that the real shop has.In addition, following the example of many other shops, a blog has been added so that the shop developers can share their thoughts with shoppers. The blog module also has a comment system implemented.
@@ -60,7 +63,7 @@ In the "account" panel, the user can change his basic data, such as an email add
 In the "Login" panel, the user can recover his password, register or log in to the website.
 
 <h3>Shopping Cart</h3>
-If the user is logged in,he has acces to his shopping cart. If the cart is empty, the user will only find a link to the store there. If there are any items in the basket, the user will add up the information about the total cost of the order, including shipping. From the same panel it is possible to change the number of ordered products or to delete the order. After clicking "Checkout" we will be taken to the payment finalization.
+If the user is logged in,he has access to his shopping cart. If the cart is empty, the user will only find a link to the store there. If there are any items in the basket, the user will add up the information about the total cost of the order, including shipping. From the same panel it is possible to change the number of ordered products or to delete the order. After clicking "Checkout" we will be taken to the payment finalization.
 
 <h3>Payment</h3>
 Once you have proceeded to payment, the implemented PayPal will guide you through the entire payment process.
